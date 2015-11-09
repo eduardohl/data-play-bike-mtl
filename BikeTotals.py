@@ -52,3 +52,11 @@ station_names=['Berri','Brebeuf','Cote-Sainte-Catherine','Maisonneuve 1','Maison
 for st in station_names:
     plotStation(full,st)
 
+#Register Totals Sum
+totals_sum = full.groupby(full.index.year).sum()
+totals_sum.index.name='Year'
+totals_sum = totals_sum.transpose()
+totals_sum['Total'] = totals_sum.sum(axis=1)
+totals_sum = totals_sum.sort(['Total'],ascending=[0])
+totals_sum.to_csv('output/sums.csv')
+
