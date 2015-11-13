@@ -1,0 +1,11 @@
+,Berri,Brebeuf,Cote-Sainte-Catherine,Maisonneuve 1,Maisonneuve 2,Pierre-Dupuy,Rachel,Saint-Urbain,Totem-Laurier,du Parc
+Berri,1.000,,0.107,0.158,0.146,0.108,0.088,,,0.138
+Brebeuf,,,,,,,,,,
+Cote-Sainte-Catherine,0.107,,1.000,0.798,0.722,0.537,0.714,,,0.764
+Maisonneuve 1,0.158,,0.798,1.000,0.916,0.467,0.581,,,0.931
+Maisonneuve 2,0.146,,0.722,0.916,1.000,0.392,0.572,,,0.939
+Pierre-Dupuy,0.108,,0.537,0.467,0.392,1.000,0.452,,,0.423
+Rachel,0.088,,0.714,0.581,0.572,0.452,1.000,,,0.572
+Saint-Urbain,,,,,,,,,,
+Totem-Laurier,,,,,,,,,,
+du Parc,0.138,,0.764,0.931,0.939,0.423,0.572,,,1.000
